@@ -66,11 +66,11 @@ nav li a:hover {
     text-align: center;
 }
 
-a {
+.github {
     color: blue;
 }
 
-a:visited {
+.github:visited {
     color: blue;
 }
 
