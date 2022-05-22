@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: cornsilk;
 }
 
 nav ul {
@@ -36,9 +40,28 @@ nav li a:hover {
 }
 
 .body {
-    margin: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
 }
 
 .description {
-    width: 50%;
+    font-size: 25px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    font-size: 100px;
+    padding-top: 20px;
+    margin-top: 0px;
+}
+
+.subheader {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.upper {
+    text-align: center;
 }

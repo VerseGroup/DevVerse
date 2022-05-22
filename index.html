@@ -14,25 +14,26 @@
         </ul>
     </nav>
     <div class="body">
-        <h1> DevVerse </h1>
-        <p class="description"> DevVerse is an extension of github (consider it github++) for 
-            mobile that makes development easier. We focus on bringing 
-            important features missing in the Github Mobile app to users and 
-            to ensure that they can use github on the go with Twilio notications. We
-            also ensure productivity on the go with custom project boards to keep track of their projects and assignments. 
-        </p>
-        <h2> Features </h2>
+        <div class="upper">
+            <h1 class="header"> DevVerse </h1>
+            <p class="description"> DevVerse is an extension of github (consider it Github++) for 
+                mobile that makes development easier. 
+            </p>
+            <hr>
+        </div>
+        <h2 class="subheader"> Features </h2>
         <p class="description">
-            <ul>
+            <ul class="description">
                 <li> Text message notifications on major Github Events (PR, Issue, Commit, Workflows/Actions) </li>
                 <li> Custom idea board to keep track of your projects and assignments  </li>
                 <li> Repository management with the Github API </li>
             </ul>
         </p>
-        <h2> Tech Stack </h2>
+        <h2 class="subheader"> Tech Stack </h2>
         <p class="description">
             The backend is a python fastAPI web api dockerirized with a postgres database to heroku
-            cloud container service. The frontend is a SwiftUI iOS app built with Alamofire and Combine. 
+            cloud container service. The frontend is a SwiftUI iOS app built with Alamofire and Combine. The 
+            backend uses the Twilio API to send text messages and the Github API to read information.
         </p>
     </div>
 </body>
