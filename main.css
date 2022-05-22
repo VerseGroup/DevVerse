@@ -65,3 +65,11 @@ nav li a:hover {
 .upper {
     text-align: center;
 }
+
+a {
+    color: blue;
+}
+
+a::after {
+    color: blue;
+}
